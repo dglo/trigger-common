@@ -11,6 +11,7 @@
 package icecube.daq.trigger.common;
 
 import icecube.daq.io.DAQComponentOutputProcess;
+import icecube.daq.juggler.alert.Alerter;
 import icecube.daq.payload.IPayload;
 import icecube.daq.util.DOMRegistry;
 
@@ -117,5 +118,5 @@ public interface ITriggerManager
     /**
      * Switch to a new run.
      */
-    void switchToNewRun();
+    void switchToNewRun(Alerter alerter, int runNumber);
 }

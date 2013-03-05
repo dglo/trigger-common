@@ -13,4 +13,14 @@ public class UnimplementedError
     {
         super("Unimplemented");
     }
+
+    /**
+     * Create an unimplemented code error.
+     *
+     * @param msg error message
+     */
+    public UnimplementedError(String msg)
+    {
+        super(msg);
+    }
 }
