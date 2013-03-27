@@ -33,8 +33,12 @@ public interface DAQTriggerComponent
      */
     IByteBufferCache getInputCache();
 
-    //Object getMBean(String name)
-    //    throws DAQCompException;
+    /**
+     * Get the component name.
+     *
+     * @return component name (without component ID)
+     */
+    String getName();
 
     /**
      * Get the ByteBufferCache used to track the outgoing request payloads
