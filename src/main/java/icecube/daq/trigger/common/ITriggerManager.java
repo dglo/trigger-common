@@ -118,5 +118,5 @@ public interface ITriggerManager
     /**
      * Switch to a new run.
      */
-    void switchToNewRun(Alerter alerter, int runNumber);
+    void switchToNewRun(int runNumber);
 }
