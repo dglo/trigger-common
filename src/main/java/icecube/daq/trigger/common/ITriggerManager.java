@@ -11,7 +11,6 @@
 package icecube.daq.trigger.common;
 
 import icecube.daq.io.DAQComponentOutputProcess;
-import icecube.daq.juggler.alert.Alerter;
 import icecube.daq.payload.IPayload;
 import icecube.daq.util.DOMRegistry;
 
