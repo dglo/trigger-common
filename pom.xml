@@ -9,7 +9,7 @@
   <modelVersion>4.0.0</modelVersion>
   <artifactId>trigger-common</artifactId>
   <packaging>jar</packaging>
-  <name>trigger-common</name>
+  <name>Common trigger classes</name>
   <description>The ${project.name} sub-system of the Surface Data Acquisition system for the IceCube Project.</description>
 
   <scm>
