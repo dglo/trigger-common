@@ -60,6 +60,13 @@ public interface ITriggerManager
     int getNumInputsQueued();
 
     /**
+     * Get number of requests queued for processing.
+     *
+     * @return number of requests queued
+     */
+    int getNumRequestsQueued();
+
+    /**
      * Get the number of requests queued for writing
      *
      * @return size of output queue
