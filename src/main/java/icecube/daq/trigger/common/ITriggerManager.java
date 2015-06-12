@@ -103,7 +103,7 @@ public interface ITriggerManager
     void setDOMRegistry(DOMRegistry registry);
 
     /**
-     * Notify the thread that it should attempt to truncate the list of hits.
+     * Notify the thread of the earliest payload of interest
      *
      * @param payload earliest payload
      */
